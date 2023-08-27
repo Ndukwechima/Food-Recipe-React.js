@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  background: #333;
+}
+
+.search-form {
+  display: flex;
+  justify-content: center;
+}
+
+.search-button {
+  min-height: 5vh;
+  min-width: 10vw;
+  border: none;
+  background: orangered;
+  color: white;
+}
+
+.search-bar {
+  min-width: 50vw;
+  min-height: 5vh;
+  border: none;
+}

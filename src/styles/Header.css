@@ -1,0 +1,47 @@
+.head {
+  background-image: url("../img/pizza.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  background-color: rgb(19, 18, 18);
+  position: fixed;
+  width: 100%;
+  top: 0%;
+  box-shadow: rgba(0, 0, 0, 0.212) 5px 3px 10px;
+}
+
+.main {
+  height: 50vh;
+}
+.search-button {
+  padding: 8px 20px;
+  background: orangered;
+  color: white;
+  font-weight: bold;
+  border: none;
+  margin-left: 20px;
+}
+.search-button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.search-form {
+  text-align: center;
+  margin-top: 5rem;
+  margin-left: 3rem;
+}
+input {
+  width: 200px;
+  height: 12px;
+  padding: 10px 20px;
+  background: rgb(236, 235, 235);
+  font-weight: bold;
+  border: none;
+  /* border-radius: 5px; */
+}
+input::placeholder {
+  font-size: 10px;
+  color: orangered;
+}

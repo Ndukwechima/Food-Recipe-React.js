@@ -1,0 +1,36 @@
+.recipe {
+  width: 25vw;
+  background-color: white;
+  margin-bottom: 20px;
+  box-shadow: rgba(0, 0, 0, 0.174) 2px 2px 8px;
+}
+
+.image {
+  width: 25vw;
+  height: 250px;
+}
+.calo {
+  width: 80px;
+  background: orangered;
+  padding: 10px 20px;
+  font-size: 10px;
+  margin-top: 20px;
+  margin-left: 30px;
+  color: white;
+}
+.title {
+  text-align: center;
+  font-size: 18px;
+}
+ul {
+  font-size: 14px;
+}
+ul {
+  list-style-type: none;
+}
+
+ul li::before {
+  content: ">";
+  color: orangered;
+  margin-right: 5px;
+}
